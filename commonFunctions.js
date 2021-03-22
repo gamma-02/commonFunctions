@@ -1,4 +1,4 @@
-window.addEventListener("load", function() {
+window.onLoad = (event) => {
   console.log("Thank you for using Common Functions, made by gamma_02.");
   console.log('now enjoy this doge');
   console.log("                   ▄              ▄");
