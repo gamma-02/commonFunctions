@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 console.log("Thank you for using Common Functions, made by gamma_02.");
 console.log('now enjoy this doge');
@@ -22,6 +23,32 @@ console.log("                ▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄
 console.log("                   ▒▒▒▒▒▒▒▒▒▒▀▀");
 console.log("-gamma_02 :)");
 
+=======
+function inite() {
+  console.log("Thank you for using Common Functions, made by gamma_02.");
+  console.log('now enjoy this doge');
+  console.log("                   ▄              ▄");
+  console.log("                  ▌▒█           ▄▀▒▌");
+  console.log("                  ▌▒▒█        ▄▀▒▒▒▐");
+  console.log("                 ▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐");
+  console.log("               ▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐");
+  console.log("             ▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌");
+  console.log("            ▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒▌");
+  console.log("            ▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐");
+  console.log("           ▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄▌");
+  console.log("           ▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒▌");
+  console.log("          ▌▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒▐");
+  console.log("          ▐▒▒▐▀▐▀▒░▄▄▒▄▒▒▒▒▒▒░▒░▒░▒▒▒▒▌");
+  console.log("          ▐▒▒▒▀▀▄▄▒▒▒▄▒▒▒▒▒▒▒▒░▒░▒░▒▒▐");
+  console.log("           ▌▒▒▒▒▒▒▀▀▀▒▒▒▒▒▒░▒░▒░▒░▒▒▒▌");
+  console.log("           ▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▒▄▒▒▐");
+  console.log("            ▀▄▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▄▒▒▒▒▌");
+  console.log("              ▀▄▒▒▒▒▒▒▒▒▒▒▄▄▄▀▒▒▒▒▄▀");
+  console.log("                ▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄▀");
+  console.log("                   ▒▒▒▒▒▒▒▒▒▒▀▀");
+  console.log("-gamma_02 :)");
+};
+>>>>>>> 6744c4e4efcd3d6b6b8bc00ded924a8974bcdf9a
 function removeClass(element, clss) {
   let alpha;
   let array = Object.prototype.toString.b;
