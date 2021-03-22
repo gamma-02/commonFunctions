@@ -88,7 +88,7 @@ function sleep(milliseconds) {
     }
   }
 }//I hate javascript sometimes. why cant there be a sleep function. why.
-function moneyClickTest(amount, element) {
+function clicks(amount, element) {
     let i;
     let b=element;
     for (i=0; i < amount; i++){
