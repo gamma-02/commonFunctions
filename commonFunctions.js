@@ -1,4 +1,25 @@
-
+console.log("Thank you for using Common Functions, made by gamma_02.");
+console.log('now enjoy this doge');
+console.log("                   ▄              ▄");
+console.log("                  ▌▒█           ▄▀▒▌");
+console.log("                  ▌▒▒█        ▄▀▒▒▒▐");
+console.log("                 ▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐");
+console.log("               ▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐");
+console.log("             ▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌");
+console.log("            ▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒▌");
+console.log("            ▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐");
+console.log("           ▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄▌");
+console.log("           ▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒▌");
+console.log("          ▌▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒▐");
+console.log("          ▐▒▒▐▀▐▀▒░▄▄▒▄▒▒▒▒▒▒░▒░▒░▒▒▒▒▌");
+console.log("          ▐▒▒▒▀▀▄▄▒▒▒▄▒▒▒▒▒▒▒▒░▒░▒░▒▒▐");
+console.log("           ▌▒▒▒▒▒▒▀▀▀▒▒▒▒▒▒░▒░▒░▒░▒▒▒▌");
+console.log("           ▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▒▄▒▒▐");
+console.log("            ▀▄▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▄▒▒▒▒▌");
+console.log("              ▀▄▒▒▒▒▒▒▒▒▒▒▄▄▄▀▒▒▒▒▄▀");
+console.log("                ▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄▀");
+console.log("                   ▒▒▒▒▒▒▒▒▒▒▀▀");
+console.log("-gamma_02 :)");
 function removeClass(element, clss) {
   let alpha;
   let array = Object.prototype.toString.b;
@@ -55,3 +76,19 @@ function hide(element){
   }
   console.log("hidden");
 }
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}//I hate javascript sometimes. why cant there be a sleep function. why.
+function moneyClickTest(amount, element) {
+    let i;
+    let b=element;
+    for (i=0; i < amount; i++){
+        b.click();
+        sleep(1);
+    }
+}//but some things are cool, like the .click(); function.
